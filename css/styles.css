@@ -19,6 +19,9 @@
       opacity: 0;
     }
   }
+  #carouselEx{
+    min-height: 80%;
+  }
   
   .animate-appear {
     animation: slideUp 0.7s ease-in-out forwards;
