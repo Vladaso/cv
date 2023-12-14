@@ -1,4 +1,4 @@
-var prevScrollpos = window.pageYOffset;
+var prevScrollpos = window.scrollY;
     var buttonPressed = false;
 
     function stopHide() {
@@ -11,11 +11,11 @@ var prevScrollpos = window.pageYOffset;
     document.getElementById("navbar-toggler").addEventListener("click", stopHide);
 
     window.addEventListener("scroll", function() {
-        var currentScrollPos = window.pageYOffset;
+        var currentScrollPos = window.scrollY;
         if (!buttonPressed) {
             var navbar = document.getElementById("navbar");
 
-            if (prevScrollpos > currentScrollPos) {
+            if (prevScrollpos-15 > currentScrollPos) {
                 navbar.style.top = "0";
             } else {
                 navbar.style.top = "-20%";
