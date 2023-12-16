@@ -393,7 +393,7 @@ padding:0;
 footer{
 text-align:center;
 overflow-wrap: break-word;
-margin-bottom:5%;
+margin-bottom:15px;
 }
 #leetcode{
     width:1.5em;
