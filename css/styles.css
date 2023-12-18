@@ -360,6 +360,7 @@ justify-content: center;
 color:white;
 font-size: 1.2rem;
 font-weight: 500;
+transform: translateX(-20px);
 }
 .contacts ul {
   list-style-type: none;
