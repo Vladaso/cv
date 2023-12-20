@@ -28,8 +28,6 @@
   }
   .text-with-backdrop {
     color: #64CCC5;
-    text-shadow: 0px 2px 0px white;
-    padding: 10px; 
   }
 
 html {
@@ -144,9 +142,6 @@ z-index:2;
     position:relative;
 
 }
-.year {
-    padding: 10px 0;
-  }
 
 #hi{
     padding:0;
@@ -362,6 +357,10 @@ font-size: 1.2rem;
 font-weight: 500;
 transform: translateX(-20px);
 }
+.year{
+    color:white;
+    padding-bottom: 15px;
+}
 .contacts ul {
   list-style-type: none;
 }
@@ -394,7 +393,6 @@ padding:0;
 footer{
 text-align:center;
 overflow-wrap: break-word;
-margin-bottom:15px;
 }
 #leetcode{
     width:1.5em;
@@ -437,7 +435,7 @@ top:0;
    font-family: 'Roboto', sans-serif;
 }
 .card-img-top{
-    padding-top:10px;
+    margin-top:10px;
     width:100%;
     max-height: 70vh;
 }
@@ -453,7 +451,8 @@ background-color:white;
     font-family: 'Roboto', sans-serif;
      font-weight: bold;
      border-width:10px;
-     border-color:#001C30
+     border-color:#001C30;
+     border-radius: 20px;
 }
 .container{
     margin:2%;
@@ -470,7 +469,7 @@ background-color:white;
 }
 hr {
     width: 100%;
-    margin: 10px 0;
+    color:white;
   }
 b{
     font-weight: 900;
