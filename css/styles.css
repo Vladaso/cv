@@ -433,6 +433,8 @@ top:0;
 .card-title{
    justify-content: center;
    font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 1.5rem;
 }
 .card-img-top{
     margin-top:10px;
@@ -455,7 +457,7 @@ background-color:white;
      border-radius: 20px;
 }
 .container{
-    margin:2%;
+    margin:0;
     background-color:#DAFFFB;
 }
 .text-white {
