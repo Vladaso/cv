@@ -101,7 +101,10 @@
                 
                         if (diffDays === 1) {
                             document.write('Today');
-                        } else {
+                        } else if (diffDays === 2) {
+                            document.write((diffDays-1) + ' day ago');
+                        }
+                        else{
                             document.write((diffDays-1) + ' days ago');
                         }
                     </script>
@@ -134,7 +137,10 @@
                 
                         if (diffDays === 1) {
                             document.write('Today');
-                        } else {
+                        } else if (diffDays === 2) {
+                            document.write((diffDays-1) + ' day ago');
+                        }
+                        else{
                             document.write((diffDays-1) + ' days ago');
                         }
                     </script>

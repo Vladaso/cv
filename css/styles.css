@@ -46,7 +46,7 @@ body {
 h1 {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 4rem;
+    font-size: max(4rem,10vw);
     color: #DAFFFB;
 
 }
@@ -139,13 +139,14 @@ z-index:2;
     background-color: #176B87;
     font-size: 3.125rem;
     background-image: linear-gradient(#176B87 80%,#DAFFFB);
+    font-family: 'VT323', monospace;
     position:relative;
 
 }
 
 #hi{
     padding:0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'VT323', monospace;
     font-size: 9.375rem;
     font-weight: 900;
     margin: 0;
@@ -289,11 +290,13 @@ overflow:hidden;
 font-size: 3.25em;
     width: 100vw;
     background-color: #64CCC5;
+    font-family: 'VT323', monospace;
 }
 
 .exp {
-    font-size: max(3vw, 2rem);
+    font-size: max(3vw, 3rem);
     color: #F030A0;
+    font-family: 'VT323', monospace;
 }
 
 #exper {
@@ -302,17 +305,17 @@ font-size: 3.25em;
      overflow-wrap: break-word;
     text-align: center;
     background-color: #DAFFFB;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'VT323', monospace;
     width:100%;
-    font-size:10vw;
+    font-size:12vw;
     font-weight: 900;
     color: #001C30;
 }
 
 #accounts{
     background-color: #64CCC5;
-    font-family: 'Roboto', sans-serif;
-    font-size: min(10vw, 5rem);
+    font-family: 'VT323', monospace;
+    font-size: min(12vw, 5rem);
     color:#001C30;
     overflow-wrap: break-word;
     font-weight: 900;
@@ -374,8 +377,7 @@ height:300px;
 }
 #main-text{
 z-index:10;
--webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+font-family: 'VT323', monospace;
      overflow-wrap: break-word;
 }
 .waves{
