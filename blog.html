@@ -81,6 +81,41 @@
 
             <div class="card col-md-4 col-sm-6 col-12 mx-auto">
                 <div class="card-body">
+                    <h5 class="card-title">Schoolwork</h5>
+                    <p class="card-text">Today I programmed a bit, but mostly did things for school,
+                        my maturitas are getting closer and closer, I studied a bit of physics and
+                        prepared for a big exam from Slovak.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <p class="card-text text-center">
+                        <b class="text-with-backdrop" style="color:black">
+                    <script>
+                        var certainDate = new Date('2024-02-03');
+                
+                        var currentDate = new Date();
+                
+                        var diffTime = Math.abs(currentDate - certainDate);
+                
+                        var diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+                
+                        if (diffDays === 1) {
+                            document.write('Today');
+                        } else if (diffDays === 2) {
+                            document.write((diffDays-1) + ' day ago');
+                        }
+                        else{
+                            document.write((diffDays-1) + ' days ago');
+                        }
+                    </script>
+                        </b>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="card col-md-4 col-sm-6 col-12 mx-auto">
+                <div class="card-body">
                     <h5 class="card-title">Crypto and rest</h5>
                     <p class="card-text">Today I will be working on real time crypto streaming into
                         our database, we also bought a new server PC that we will be starting up during the 
