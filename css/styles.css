@@ -19,9 +19,6 @@
       opacity: 0;
     }
   }
-  #carouselEx{
-    min-height: 80%;
-  }
   
   .animate-appear {
     animation: slideUp 0.7s ease-in-out forwards;
@@ -175,7 +172,7 @@ z-index:2;
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 1px 10px;
     padding-top: 0%;
-    font-size: 2em;
+    font-size: 1.5em;
     border-radius: 5px;
 }
 .nav-link:hover{
@@ -193,7 +190,7 @@ z-index:2;
         margin: 10px 10px 10px 10px;
         padding: 10px 10px 1px 10px;
         padding-top: 0%;
-        font-size: 2em;
+        font-size: 1.5em;
         border-radius: 5px;
 }
 .nav-but:hover{
@@ -238,52 +235,17 @@ z-index:2;
     background-color: #DAFFFB;
     background-image: linear-gradient(#DAFFFB 80%,#64CCC5);
 }
-.left:hover{
-    background:#3188A3;
-    .title_cards{
-    color: black;
-}
-}
-.middle:hover{
-    background:#3188A3;
-    .title_cards{
-    color: black;
-}
-}
-.right:hover{
-    background:#3188A3;
-    .title_cards{
-    color: black;
-}
-}
-.left{
-margin:10%;
-overflow:hidden;
-    border-radius: 3rem;
-    background:#64CCC5;
-}
-.middle{
-margin:10%;
-overflow:hidden;
-    border-radius: 3rem;
-    background:#64CCC5;
-}
-.right{
-margin:10%;
-overflow:hidden;
-    border-radius: 3rem;
-    background:#64CCC5;
-}
+
 
 .title_cards {
-    font-size: 5em; /* Equivalent to 100px */
+    font-size: 4em;
     color: #FFFFFF;
 }
 
 .text_cards {
     margin: 5%;
     color: white;
-    font-size: max(2em, 2vw);
+    font-size: max(1.5em, 2vw);
 }
 
 .accounts {
@@ -301,13 +263,12 @@ font-size: 3.25em;
 
 #exper {
     position: relative;
-       padding:5%;
      overflow-wrap: break-word;
     text-align: center;
     background-color: #DAFFFB;
     font-family: 'VT323', monospace;
     width:100%;
-    font-size:12vw;
+    font-size: max(7vw, 4em);
     font-weight: 900;
     color: #001C30;
 }
@@ -315,7 +276,7 @@ font-size: 3.25em;
 #accounts{
     background-color: #64CCC5;
     font-family: 'VT323', monospace;
-    font-size: min(12vw, 5rem);
+    font-size: max(6vw, 3.5rem);
     color:#001C30;
     overflow-wrap: break-word;
     font-weight: 900;
@@ -465,9 +426,11 @@ background-color:white;
 .text-white {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 1.6vw;
+    margin:0;
+    padding: 3%;
 
-    @media (max-width: 767px) {
+    @media (max-width: 1000px) {
         font-size: 18px;
     }
 }
@@ -477,7 +440,7 @@ hr {
   }
 b{
     font-weight: 900;
-    font-size: 2.2vw;
+    font-size: 1.6vw;
     color:#DAFFFB;
     @media (max-width: 767px) {
         font-size: 20px;
