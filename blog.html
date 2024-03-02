@@ -81,6 +81,42 @@
 
             <div class="card col-md-4 col-sm-6 col-12 mx-auto">
                 <div class="card-body">
+                    <h5 class="card-title">10 Day Holiday</h5>
+                    <p class="card-text">Today is the start of a pretty long holiday.
+                        I will be working, while learning for my maturitas, because
+                        they happen right after. Today I plan to rework some stuff
+                        and solve some math problems.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <p class="card-text text-center">
+                        <b class="text-with-backdrop" style="color:black">
+                    <script>
+                        var certainDate = new Date('2024-03-02');
+                
+                        var currentDate = new Date();
+                
+                        var diffTime = Math.abs(currentDate - certainDate);
+                
+                        var diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+                
+                        if (diffDays === 1) {
+                            document.write('Today');
+                        } else if (diffDays === 2) {
+                            document.write((diffDays-1) + ' day ago');
+                        }
+                        else{
+                            document.write((diffDays-1) + ' days ago');
+                        }
+                    </script>
+                        </b>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="card col-md-4 col-sm-6 col-12 mx-auto">
+                <div class="card-body">
                     <h5 class="card-title">It's the first of the month!</h5>
                     <p class="card-text">Today I mostly learned for my maturitas, we also got 
                         a lot of assignements from my Informatics teacher, however they are 
