@@ -363,6 +363,10 @@ overflow-wrap: break-word;
 #github{
     width:1.5em;
 }
+#codeforces{
+    padding-left: 10px;
+    width:1.3em;
+}
 .carousel-item {
   padding:5% 10%;
   font-weight: 700;
