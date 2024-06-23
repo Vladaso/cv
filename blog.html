@@ -82,6 +82,42 @@
     <div class="card col-md-4 col-sm-6 col-12 mx-auto">
                     <div class="card-body">
                         <h5 class="card-title">Work</h5>
+                        <p class="card-text">Yesterday I ended up finishing what I wanted, but noticed some
+    differences between the results and so I am currently working on that.
+    Today I'll also be effectivizing our retrieve function, so that if a
+    retrieval is empty or doesn't have enough required data it pulls the
+    rest of the data and saves it to database.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <p class="card-text text-center">
+                            <b class="text-with-backdrop" style="color:black">
+                        <script>
+                            var certainDate = new Date('2024-06-23');
+                
+                            var currentDate = new Date();
+                
+                            var diffTime = Math.abs(currentDate - certainDate);
+                
+                            var diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+                
+                            if (diffDays === 1) {
+                                document.write('Today');
+                            } else if (diffDays === 2) {
+                                document.write((diffDays-1) + ' day ago');
+                            }
+                            else{
+                                document.write((diffDays-1) + ' days ago');
+                            }
+                        </script>
+                            </b>
+                        </p>
+                    </div>
+                </div>
+
+    <div class="card col-md-4 col-sm-6 col-12 mx-auto">
+                    <div class="card-body">
+                        <h5 class="card-title">Work</h5>
                         <p class="card-text">Today I'm finishing a function, specifically modifying a part so that
     it works with our database so we can train models on the data and the
     functionality is improved as well as teh efficiency since there is no
