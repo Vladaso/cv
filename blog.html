@@ -81,6 +81,41 @@
 
     <div class="card col-md-4 col-sm-6 col-12 mx-auto">
                     <div class="card-body">
+                        <h5 class="card-title">Progress</h5>
+                        <p class="card-text">I improved retrievals a lot while implementing new functionality.
+    After a long time wrote some actual documentation as the function is
+    getting increasingly complex. Went for a run today, hopefully there
+    will be some races I can attend in Denmark as well.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <p class="card-text text-center">
+                            <b class="text-with-backdrop" style="color:black">
+                        <script>
+                            var certainDate = new Date('2024-08-08');
+                
+                            var currentDate = new Date();
+                
+                            var diffTime = Math.abs(currentDate - certainDate);
+                
+                            var diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+                
+                            if (diffDays === 1) {
+                                document.write('Today');
+                            } else if (diffDays === 2) {
+                                document.write((diffDays-1) + ' day ago');
+                            }
+                            else{
+                                document.write((diffDays-1) + ' days ago');
+                            }
+                        </script>
+                            </b>
+                        </p>
+                    </div>
+                </div>
+
+    <div class="card col-md-4 col-sm-6 col-12 mx-auto">
+                    <div class="card-body">
                         <h5 class="card-title">Work</h5>
                         <p class="card-text">Today I did a lot of exception handling, it is suprisingly difficult
     to do correctly. However, it is a pretty important skill to have so
