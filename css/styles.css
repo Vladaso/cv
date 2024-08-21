@@ -179,6 +179,10 @@ z-index:2;
     background-color: rgb(45, 100, 202);
     color:black;
 }
+.nav-item.active .nav-link {
+    background-color: rgb(45, 100, 202);
+    color:black;
+}
 .nav-but{
     display: block;
     background: 0 0;
@@ -470,9 +474,20 @@ b{
 #linkedIn{
     width:1.3em;
     padding-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
+
+.cv-container {
+    width: 100%;
+    position: relative; 
+}
+
+.cv-iframe {
+    height:100%;
+    border: none;
+    margin: 5%;
+}
 
 
 

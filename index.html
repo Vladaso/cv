@@ -23,6 +23,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 
+
+    <!-- Make sure a recruiter/person first sees the cv, then gets to view the whole site -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            if (!sessionStorage.getItem("hasVisited")) {
+                sessionStorage.setItem("hasVisited", "true");
+                window.location.href = "cv.html";
+            }
+        });
+    </script>
+
     <title>Vladimír Jakabovič</title>
 </head>
 <body>
@@ -36,6 +47,9 @@
     </button>
     <div class="navbar collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a  href="cv.html" class="nav-link">CV</a>
+            </li>
             <li class="nav-item">
                 <a  href="#top" class="nav-link">Home</a>
             </li>
@@ -197,9 +211,10 @@
         <div id="extra_link">
             <a href="achievements.html" class="links">&gt;Achievements&lt;</a>
         </div>
-        <div id="extra_link">
+        <!-- Not as improtant as the others -->
+        <!-- <div id="extra_link">
             <a href="projects.html" class="links">&gt;Projects&lt;</a>
-        </div>
+        </div> -->
         <div id="extra_link">
             <a href="skills.html" class="links">&gt;Skills&lt;</a>
         </div>
